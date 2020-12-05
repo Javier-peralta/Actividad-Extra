@@ -17,11 +17,11 @@ public class Persona{
 		return edad;
 	}
 
-	public int getNombre(){
+	public String getNombre(){
                 return nombre;
         }
 
-	public int getEstatura(){
+	public float getEstatura(){
                 return estatura;
         }
 }
