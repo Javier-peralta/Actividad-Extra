@@ -9,7 +9,7 @@ public class Persona{
 	public Persona (int edad, String nombre, float estatura){
 		this.edad = edad;
 		this.nombre = nombre;
-		this.estatura = estatura
+		this.estatura = estatura;
 	}
 
 	//metodos

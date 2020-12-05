@@ -3,10 +3,10 @@ public class Empleado extends Persona implements InEmpleados{
 	//atributos
 	private int sueldo;
 	private String email;
-	private int numtel;
+	private String numtel;
 
 	//contructor
-	public Empleado(int sueldo, String email, int numtel, int edad, String nombre, float estatura){
+	public Empleado(int sueldo, String email, String numtel, int edad, String nombre, float estatura){
 		super(edad, nombre, estatura);
 		this.sueldo = sueldo;
 		this.email = email;
@@ -22,7 +22,7 @@ public class Empleado extends Persona implements InEmpleados{
                 return email;
         }
 
-	public int getNumtel(){
+	public String getNumtel(){
                 return numtel;
         }
 
@@ -40,4 +40,6 @@ public class Empleado extends Persona implements InEmpleados{
         return ("La empresa donde trabaja es: "+ empresa);
         }
 
+	private String puesto;
+	private String empresa;
 }
